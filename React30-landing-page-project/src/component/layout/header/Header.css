@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: center;
+}
+ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 50px;
+}
+li {
+  cursor: pointer;
+  font-size: large;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+li:hover {
+  color: tomato;
+}
